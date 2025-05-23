@@ -1,8 +1,8 @@
 BEGIN:VCARD
 VERSION:3.0
-FN:AGL Law Firm
-ORG:AGL Law Firm
-TEL;TYPE=work,voice:+1234567890
-EMAIL;TYPE=internet:contact@aglfirm.com
-ADR;TYPE=work:;;123 Justice Ave;New York;NY;10001;USA
+FN:AGL Law Professional Corporation
+ORG:AGL Law Professional Corporation
+TEL;TYPE=work,voice:+16475706508
+EMAIL;TYPE=internet:glamba@agllaw.ca
+ADR;TYPE=work:;;7001 Steeles Avenue West Unit 5
 END:VCARD
