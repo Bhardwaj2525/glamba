@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Roboto:wght@400&display=swap');
+
+body {
+  margin: 0;
+  background: linear-gradient(135deg, #1b1b1b, #3c3c3c);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: 'Roboto', sans-serif;
+}
+
+.card {
+  background: linear-gradient(145deg, #fafafa, #e6e2dc);
+  width: 360px;
+  padding: 35px 40px;
+  border-radius: 20px;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.12), 0 12px 20px rgba(0,0,0,0.08);
+  color: #2c2c2c;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.logo {
+  width: 80px;
+  margin-bottom: 20px;
+  filter: drop-shadow(0 0 4px rgba(191,165,106,0.8));
+}
+
+h1 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+  font-size: 2.2rem;
+  margin-bottom: 8px;
+  color: #4a3c1a;
+}
+
+.title {
+  font-weight: 500;
+  font-size: 1.1rem;
+  color: #7a6e4f;
+  margin-bottom: 25px;
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+}
+
+.info {
+  margin-bottom: 18px;
+  font-size: 1rem;
+}
+
+.info a {
+  color: #6a5e2b;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+.info a:hover {
+  color: #bfa56a;
+  text-decoration: underline;
+}
+
+.btn-save {
+  display: inline-block;
+  margin-top: 15px;
+  background-color: #bfa56a;
+  color: #fff;
+  padding: 12px 28px;
+  border-radius: 30px;
+  font-weight: 700;
+  font-size: 1rem;
+  text-decoration: none;
+  box-shadow: 0 4px 12px rgba(191,165,106,0.6);
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.btn-save:hover {
+  background-color: #9e8747;
+  box-shadow: 0 6px 18px rgba(158,135,71,0.8);
+  cursor: pointer;
+}
+
+.qr-container {
+  margin-top: 25px;
+  text-align: center;
+}
+
+.qr-code {
+  width: 120px;
+  height: auto;
+  margin-top: 8px;
+}
+
+.footer {
+  margin-top: 28px;
+  font-size: 0.85rem;
+  color: #a89f82;
+  font-style: italic;
+  letter-spacing: 1.1px;
+}
