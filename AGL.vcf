@@ -1,0 +1,8 @@
+BEGIN:VCARD
+VERSION:3.0
+FN:AGL Law Firm
+ORG:AGL Law Firm
+TEL;TYPE=work,voice:+1234567890
+EMAIL;TYPE=internet:contact@aglfirm.com
+ADR;TYPE=work:;;123 Justice Ave;New York;NY;10001;USA
+END:VCARD
